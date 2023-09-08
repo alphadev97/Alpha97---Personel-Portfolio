@@ -64,3 +64,31 @@ export const aboutData = [
       "Lorem ipsum dolor sit amet consectetur adipiscing elit egestas ornare, nascetur non vehicula varius faucibus feugiat vestibulum pretium accumsan habitasse, nisi parturient viverra ullamcorper cras bibendum torquent morbi. Placerat ad morbi hac porttitor aliquet vehicula sem turpis, ullamcorper odio venenatis felis nisi vel cum egestas accumsan, massa quisque praesent id purus quis faucibus. Maecenas netus facilisi aliquam tellus diam dictumst ligula, facilisis magna platea auctor nulla habitasse per felis, habitant laoreet eros sagittis sociis accumsan.",
   },
 ];
+
+// Experience Section Data
+
+export const experienceData = [
+  {
+    id: 1,
+    title: "Experience",
+    designation: "Full Stack Developer",
+    date: "2016 - 2022",
+    orgaization: "BlueTech International",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit egestas ornare, nascetur non vehicula varius faucibus feugiat vestibulum pretium accumsan habitasse, nisi parturient viverra ullamcorper cras bibendum torquent morbi. Placerat ad morbi hac porttitor aliquet vehicula sem turpis, ullamcorper odio venenatis felis nisi vel cum egestas accumsan, massa quisque praesent id purus quis faucibus.",
+    technologies: [
+      {
+        id: 1,
+        tech: "React.js",
+      },
+      {
+        id: 2,
+        tech: "Tailwind CSS",
+      },
+      {
+        id: 3,
+        tech: "JavaScript",
+      },
+    ],
+  },
+];
