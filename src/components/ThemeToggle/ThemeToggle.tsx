@@ -6,12 +6,12 @@ import { BsFillMoonFill, BsSunFill } from "react-icons/bs";
 import { ThemeContext } from "@/context/ThemeContext";
 
 const ThemeToggle = () => {
-  const { theme } = useContext(ThemeContext)!;
+  const { toggle, theme } = useContext(ThemeContext)!;
 
   console.log(theme);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} onClick={toggle}>
       <BsFillMoonFill />
       <div className={styles.ball}></div>
       <BsSunFill />
