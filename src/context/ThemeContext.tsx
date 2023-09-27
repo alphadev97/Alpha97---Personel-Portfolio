@@ -1,16 +1,13 @@
 "use client";
 
-import { ReactNode, createContext, useState } from "react";
-
-interface MyComponentProps {
-  children: ReactNode;
-}
+import { ReactNode, createContext, useEffect, useState } from "react";
 
 interface ThemeProviderProps {
   children: ReactNode;
 }
 interface ThemeContextProps {
   theme?: string;
+  toggle?: () => void;
 }
 
 export const ThemeContext = createContext<ThemeContextProps | undefined>(
@@ -25,11 +22,22 @@ const getFromLocalStorage = () => {
 };
 
 export const ThemeContextProvider = ({ children }: ThemeProviderProps) => {
-  const [theme, setTheme] = useState(() => {
-    return getFromLocalStorage();
+  const [theme, setTheme] = useState<string>(() => {
+    const value = getFromLocalStorage();
+    return value || "light";
   });
 
+  const toggle = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+
+  useEffect(() => {
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
   return (
-    <ThemeContext.Provider value={{ theme }}>{children}</ThemeContext.Provider>
+    <ThemeContext.Provider value={{ theme, toggle }}>
+      {children}
+    </ThemeContext.Provider>
   );
 };
