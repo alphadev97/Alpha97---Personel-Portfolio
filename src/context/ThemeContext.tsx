@@ -8,29 +8,28 @@ interface MyComponentProps {
 
 interface ThemeProviderProps {
   children: ReactNode;
-  value: ThemeContextProps;
 }
 interface ThemeContextProps {
-  theme: string;
+  theme?: string;
 }
 
-const ThemeContext = createContext<ThemeContextProps | undefined>(undefined);
+export const ThemeContext = createContext<ThemeContextProps | undefined>(
+  undefined
+);
 
 const getFromLocalStorage = () => {
-  const value = localStorage.getItem("theme");
-
-  return value || "light";
+  if (typeof window !== undefined) {
+    const value = localStorage.getItem("theme");
+    return value || "light";
+  }
 };
 
-export const ThemeContextProvider = ({
-  children,
-  value,
-}: ThemeProviderProps) => {
+export const ThemeContextProvider = ({ children }: ThemeProviderProps) => {
   const [theme, setTheme] = useState(() => {
     return getFromLocalStorage();
   });
 
   return (
-    <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
+    <ThemeContext.Provider value={{ theme }}>{children}</ThemeContext.Provider>
   );
 };
