@@ -1,4 +1,5 @@
-import { navItems } from "@/data/static-data";
+import styles from "./homePage.module.css";
+import Header from "@/components/Header";
 
 type NavItem = {
   id: number;
@@ -9,12 +10,9 @@ type NavItem = {
 export default function Home() {
   return (
     <div>
-      {navItems.map((item: NavItem) => (
-        <div key={item.id}>
-          <h1>{item.title}</h1>
-          <p>{item.url}</p>
-        </div>
-      ))}
+      <div className={styles.header}>
+        <Header />
+      </div>
     </div>
   );
 }
