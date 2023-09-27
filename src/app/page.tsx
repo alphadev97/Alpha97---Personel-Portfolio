@@ -1,4 +1,4 @@
-import { navItems } from "@/data/static-data.";
+import { navItems } from "@/data/static-data";
 
 type NavItem = {
   id: number;
