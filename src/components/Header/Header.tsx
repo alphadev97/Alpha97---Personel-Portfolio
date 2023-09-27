@@ -2,8 +2,7 @@ import { navItems } from "@/data/static-data";
 import Link from "next/link";
 import React from "react";
 import styles from "./header.module.css";
-import Image from "next/image";
-import { BsFillMoonFill } from "react-icons/bs";
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
 
 const Header = () => {
   return (
@@ -14,9 +13,7 @@ const Header = () => {
             <h2 className={styles.title}>{item.title}</h2>
           </Link>
         ))}
-      <div className={styles.theme}>
-        <BsFillMoonFill />
-      </div>
+      <ThemeToggle />
     </div>
   );
 };

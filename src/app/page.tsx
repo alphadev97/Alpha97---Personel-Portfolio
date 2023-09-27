@@ -1,5 +1,5 @@
 import styles from "./homePage.module.css";
-import Header from "@/components/Header";
+import Header from "@/components/Header/Header";
 
 type NavItem = {
   id: number;
