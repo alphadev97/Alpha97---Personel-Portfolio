@@ -1,11 +1,13 @@
 import React from "react";
 import styles from "./themeToggle.module.css";
-import { BsFillMoonFill } from "react-icons/bs";
+import { BsFillMoonFill, BsSunFill } from "react-icons/bs";
 
 const ThemeToggle = () => {
   return (
-    <div className={styles.theme}>
+    <div className={styles.container}>
       <BsFillMoonFill />
+      <div className={styles.ball}></div>
+      <BsSunFill />
     </div>
   );
 };
