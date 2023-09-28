@@ -1,6 +1,8 @@
 .container {
   min-height: 100vh;
   padding: 0 8rem;
+  background-color: var(--bg);
+  color: var(--text-color);
 }
 
 .content {
@@ -15,7 +17,7 @@
 
 .projectCard {
   margin-top: 3rem;
-  background: linear-gradient(260deg, #fff1eb 31.05%, #ace0f9 77.42%);
+  background: var(--bg-gradient);
   padding: 2rem;
   display: flex;
   gap: 2rem;
