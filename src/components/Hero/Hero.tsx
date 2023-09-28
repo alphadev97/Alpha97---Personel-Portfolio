@@ -1,20 +1,21 @@
 import React from "react";
 import styles from "./hero.module.css";
 import Image from "next/image";
+import { heroItem } from "@/data/static-data";
 
 const Hero = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.image}>
-        {/* <Image src={"/public/next.svg"} height={20} width={20} alt="" /> */}
-        <h1>Image</h1>
-        <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-          suscipit magnam nostrum laboriosam, enim nobis repellat iusto alias?
-          Doloremque quo similique eveniet mollitia eius impedit nisi placeat!
-          Nesciunt, minima tenetur!
-        </h2>
-      </div>
+      <Image
+        className={styles.image}
+        src={"/alpha97.jpeg"}
+        height={100}
+        width={100}
+        alt=""
+      />
+      <h2
+        className={styles.desc}
+      >{`${heroItem.name}. I'm a ${heroItem.designation} with  ${heroItem.experience} of experience. I enjoy building sites & apps, My focus is ${heroItem.focus}`}</h2>
     </div>
   );
 };
