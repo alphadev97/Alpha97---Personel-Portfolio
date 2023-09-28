@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import styles from "./header.module.css";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
+import MobileMenu from "../MobileMenu/MobileMenu";
 
 const Header = () => {
   return (
@@ -15,6 +16,9 @@ const Header = () => {
           </Link>
         ))}
       <ThemeToggle />
+      <div className={styles.mobileMenu}>
+        <MobileMenu />
+      </div>
     </div>
   );
 };
