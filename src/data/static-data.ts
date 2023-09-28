@@ -71,149 +71,147 @@ export const aboutItem = {
 };
 
 // PROJECTS ITEM
-export const projectsItem = [
-  {
-    title: "My Projects",
-    projects: [
-      {
-        id: 1,
-        title: "Lorem ipsum dolor sit amet",
-        image_url: "/",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
-        date: "20-2-23",
-        technology: [
-          {
-            id: 1,
-            title: "HTML",
-          },
-          {
-            id: 2,
-            title: "CSS",
-          },
-          {
-            id: 3,
-            title: "JAVASCRIPT",
-          },
-          {
-            id: 4,
-            title: "REACT.JS",
-          },
-          {
-            id: 5,
-            title: "NODE.JS",
-          },
-          {
-            id: 6,
-            title: "NEXT.JS",
-          },
-        ],
-      },
-      {
-        id: 2,
-        title: "Lorem ipsum dolor sit amet",
-        image_url: "/",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
-        date: "20-2-23",
-        technology: [
-          {
-            id: 1,
-            title: "HTML",
-          },
-          {
-            id: 2,
-            title: "CSS",
-          },
-          {
-            id: 3,
-            title: "JAVASCRIPT",
-          },
-          {
-            id: 4,
-            title: "REACT.JS",
-          },
-          {
-            id: 5,
-            title: "NODE.JS",
-          },
-          {
-            id: 6,
-            title: "NEXT.JS",
-          },
-        ],
-      },
-      {
-        id: 3,
-        title: "Lorem ipsum dolor sit amet",
-        image_url: "/",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
-        date: "20-2-23",
-        technology: [
-          {
-            id: 1,
-            title: "HTML",
-          },
-          {
-            id: 2,
-            title: "CSS",
-          },
-          {
-            id: 3,
-            title: "JAVASCRIPT",
-          },
-          {
-            id: 4,
-            title: "REACT.JS",
-          },
-          {
-            id: 5,
-            title: "NODE.JS",
-          },
-          {
-            id: 6,
-            title: "NEXT.JS",
-          },
-        ],
-      },
-      {
-        id: 4,
-        title: "Lorem ipsum dolor sit amet",
-        image_url: "/",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
-        date: "20-2-23",
-        technology: [
-          {
-            id: 1,
-            title: "HTML",
-          },
-          {
-            id: 2,
-            title: "CSS",
-          },
-          {
-            id: 3,
-            title: "JAVASCRIPT",
-          },
-          {
-            id: 4,
-            title: "REACT.JS",
-          },
-          {
-            id: 5,
-            title: "NODE.JS",
-          },
-          {
-            id: 6,
-            title: "NEXT.JS",
-          },
-        ],
-      },
-    ],
-  },
-];
+export const projectsItem = {
+  title: "My Projects",
+  projects: [
+    {
+      id: 1,
+      title: "Lorem ipsum dolor sit amet",
+      image_url: "/",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
+      date: "20-2-23",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+        {
+          id: 4,
+          title: "REACT.JS",
+        },
+        {
+          id: 5,
+          title: "NODE.JS",
+        },
+        {
+          id: 6,
+          title: "NEXT.JS",
+        },
+      ],
+    },
+    {
+      id: 2,
+      title: "Lorem ipsum dolor sit amet",
+      image_url: "/",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
+      date: "20-2-23",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+        {
+          id: 4,
+          title: "REACT.JS",
+        },
+        {
+          id: 5,
+          title: "NODE.JS",
+        },
+        {
+          id: 6,
+          title: "NEXT.JS",
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: "Lorem ipsum dolor sit amet",
+      image_url: "/",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
+      date: "20-2-23",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+        {
+          id: 4,
+          title: "REACT.JS",
+        },
+        {
+          id: 5,
+          title: "NODE.JS",
+        },
+        {
+          id: 6,
+          title: "NEXT.JS",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "Lorem ipsum dolor sit amet",
+      image_url: "/",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
+      date: "20-2-23",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+        {
+          id: 4,
+          title: "REACT.JS",
+        },
+        {
+          id: 5,
+          title: "NODE.JS",
+        },
+        {
+          id: 6,
+          title: "NEXT.JS",
+        },
+      ],
+    },
+  ],
+};
 
 // SKILLS ITEM
 export const skillsItem = [
