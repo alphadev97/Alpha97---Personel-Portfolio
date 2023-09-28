@@ -29,12 +29,14 @@ const Hero = () => {
         <Link className={styles.btnSecondary} href={heroItem.cv.url}>
           {heroItem.cv.title}
         </Link>
-        <Link className={styles.social} href={heroItem.iconOne.url}>
-          <FiGithub />
-        </Link>
-        <Link className={styles.social} href={heroItem.iconOne.url}>
-          <FiLinkedin />
-        </Link>
+        <div className={styles.social}>
+          <Link className={styles.socialLink} href={heroItem.iconOne.url}>
+            <FiGithub />
+          </Link>
+          <Link className={styles.socialLink} href={heroItem.iconOne.url}>
+            <FiLinkedin />
+          </Link>
+        </div>
       </div>
     </div>
   );
