@@ -67,3 +67,9 @@
     display: inline-block;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .header {
+    width: 80%;
+  }
+}
