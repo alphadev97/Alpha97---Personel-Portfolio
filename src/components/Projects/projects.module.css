@@ -80,3 +80,27 @@
     height: 350px;
   }
 }
+
+@media screen and (max-width: 1350px) {
+  .projectTitle {
+    font-size: 1.5rem;
+  }
+
+  .projectDesc {
+    font-size: 1rem;
+  }
+
+  .projectDate {
+    font-size: 1rem;
+  }
+
+  .projectTech {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .image {
+    width: 400px;
+    height: 250px;
+  }
+}
