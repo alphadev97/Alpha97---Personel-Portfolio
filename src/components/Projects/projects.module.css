@@ -50,3 +50,33 @@
   font-size: 2rem;
   font-weight: 500;
 }
+
+@media screen and (max-width: 1500px) {
+  .projectTech {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .projectTitle {
+    font-size: 1.8rem;
+  }
+
+  .projectDesc {
+    font-size: 1.2rem;
+  }
+
+  .projectDate {
+    font-size: 1.2rem;
+  }
+
+  .projectTech {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .image {
+    width: 500px;
+    height: 350px;
+  }
+}
