@@ -3,7 +3,7 @@ import styles from "./hero.module.css";
 import Image from "next/image";
 import { heroItem } from "@/data/static-data";
 import Link from "next/link";
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 const Hero = () => {
   return (
@@ -23,17 +23,17 @@ const Hero = () => {
       </p>
 
       <div className={styles.connect}>
-        <Link className={styles.btn} href={heroItem.contact.url}>
+        <Link className={styles.btnPrimary} href={heroItem.contact.url}>
           {heroItem.contact.title}
         </Link>
-        <Link className={styles.btn} href={heroItem.cv.url}>
+        <Link className={styles.btnSecondary} href={heroItem.cv.url}>
           {heroItem.cv.title}
         </Link>
         <Link className={styles.social} href={heroItem.iconOne.url}>
-          <FaGithubSquare />
+          <FiGithub />
         </Link>
         <Link className={styles.social} href={heroItem.iconOne.url}>
-          <FaLinkedin />
+          <FiLinkedin />
         </Link>
       </div>
     </div>
