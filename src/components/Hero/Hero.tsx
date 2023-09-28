@@ -8,14 +8,17 @@ const Hero = () => {
     <div className={styles.container}>
       <Image
         className={styles.image}
-        src={"/alpha97.jpeg"}
+        src={heroItem.image_url}
         height={100}
         width={100}
         alt=""
       />
-      <h2
-        className={styles.desc}
-      >{`${heroItem.name}. I'm a ${heroItem.designation} with  ${heroItem.experience} of experience. I enjoy building sites & apps, My focus is ${heroItem.focus}`}</h2>
+
+      <p className={styles.desc}>
+        <b>{heroItem.name}</b>. I'm a <b>{heroItem.designation}</b> with{" "}
+        <b>{heroItem.experience}</b> of experience. I enjoy building sites &
+        apps, My focus is <b>{heroItem.focus}</b>.
+      </p>
     </div>
   );
 };
