@@ -65,6 +65,11 @@
 }
 
 .social {
+  display: flex;
+  gap: 2rem;
+}
+
+.socialLink {
   padding: 0.9rem;
   background-color: var(--bg);
   color: var(--text-color);
@@ -76,8 +81,66 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.social:hover {
+.socialLink:hover {
   background-color: var(--text-color);
   color: var(--bg);
   transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 1200px) {
+  .desc {
+    padding: 0 5rem;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .desc {
+    padding: 0 2rem;
+    font-size: 2rem;
+  }
+
+  .connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .desc {
+    padding: 0 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .desc {
+    padding: 0 0.2rem;
+    font-size: 1.2rem;
+  }
+
+  .connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .btnPrimary,
+  .btnSecondary {
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+  }
 }
