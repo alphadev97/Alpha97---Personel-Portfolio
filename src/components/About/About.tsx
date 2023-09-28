@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./about.module.css";
 import { aboutItem } from "@/data/static-data";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -9,6 +10,10 @@ const About = () => {
         <h2 className={styles.title}>{aboutItem.title}</h2>
         <p className={styles.desc}>{aboutItem.description}</p>
       </div>
+
+      <Link className={styles.btn} href={aboutItem.url}>
+        {aboutItem.btnTitle}
+      </Link>
     </div>
   );
 };
