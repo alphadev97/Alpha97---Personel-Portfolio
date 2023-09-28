@@ -34,3 +34,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.container {
+  min-height: 100vh;
+}
