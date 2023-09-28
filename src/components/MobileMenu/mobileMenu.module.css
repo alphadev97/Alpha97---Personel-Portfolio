@@ -1,0 +1,31 @@
+.menu {
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--text-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.responsiveMenu {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  background-color: var(--bg);
+  height: fit-content;
+  width: 100%;
+  padding: 2rem 0;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 2rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
