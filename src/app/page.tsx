@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero/Hero";
 import styles from "./homePage.module.css";
 import Header from "@/components/Header/Header";
+import About from "@/components/About/About";
 
 type NavItem = {
   id: number;
@@ -15,6 +16,7 @@ export default function Home() {
         <Header />
       </div>
       <Hero />
+      <About />
     </div>
   );
 }
