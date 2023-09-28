@@ -35,12 +35,12 @@ export const navItems = [
 // HERO ITEM
 export const heroItem = {
   id: 1,
-  image_url: "/hero",
+  image_url: "/alpha97.jpeg",
   title: "hero",
   name: "Hello, I'm Ricardo",
   designation: "full-stack developer",
   experience: "8 years",
-  focus: "React (Next.js).",
+  focus: "React (Next.js)",
   contact: {
     title: "Contact me here",
     url: "/",
