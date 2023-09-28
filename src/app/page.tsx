@@ -2,6 +2,7 @@ import Hero from "@/components/Hero/Hero";
 import styles from "./homePage.module.css";
 import Header from "@/components/Header/Header";
 import About from "@/components/About/About";
+import Projects from "@/components/Projects/Projects";
 
 type NavItem = {
   id: number;
@@ -17,6 +18,7 @@ export default function Home() {
       </div>
       <Hero />
       <About />
+      <Projects />
     </div>
   );
 }
