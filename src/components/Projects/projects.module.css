@@ -1,9 +1,50 @@
 .container {
   min-height: 100vh;
+  padding: 0 8rem;
 }
 
 .content {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.projectCard {
+  margin-top: 3rem;
+  background: linear-gradient(260deg, #fff1eb 31.05%, #ace0f9 77.42%);
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  border-radius: 2rem;
+}
+
+.image {
+  border-radius: 2rem;
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.projectTitle {
+  font-size: 2rem;
+}
+
+.projectDesc {
+  font-size: 1.5rem;
+}
+
+.projectDate {
+  font-size: 1.8rem;
+}
+
+.projectTech {
+  font-size: 2rem;
+  font-weight: 500;
 }
