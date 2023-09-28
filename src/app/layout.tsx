@@ -1,10 +1,10 @@
 import { ThemeContextProvider } from "@/context/ThemeContext";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import MyThemeProvider from "@/providers/ThemeProvider";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Alpha97 Portfolio",
