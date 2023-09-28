@@ -8,6 +8,7 @@
   width: 60%;
   background-color: var(--softBg);
   border-radius: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .logo {
@@ -18,10 +19,15 @@
 .title {
   font-size: 1.2rem;
   padding: 0.5rem 1.5rem;
-  background-color: var(--bg);
   border-radius: 1rem;
   color: var(--text-color);
   font-weight: 500;
+}
+
+.title:hover {
+  background-color: var(--text-color);
+  color: var(--bg);
+  transition: all 0.5s ease;
 }
 
 .mobileMenu {
