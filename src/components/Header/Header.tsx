@@ -7,9 +7,10 @@ import ThemeToggle from "../ThemeToggle/ThemeToggle";
 const Header = () => {
   return (
     <div className={styles.header}>
+      <h1 className={styles.logo}>Alpha97</h1>
       {navItems &&
         navItems.map((item) => (
-          <Link href={item.url} key={item.id}>
+          <Link href={item.url} key={item.id} className={styles.navItem}>
             <h2 className={styles.title}>{item.title}</h2>
           </Link>
         ))}
