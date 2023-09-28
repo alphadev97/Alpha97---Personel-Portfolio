@@ -11,10 +11,35 @@ const ThemeToggle = () => {
   console.log(theme);
 
   return (
-    <div className={styles.container} onClick={toggle}>
-      <BsFillMoonFill />
-      <div className={styles.ball}></div>
-      <BsSunFill />
+    <div
+      className={styles.container}
+      onClick={toggle}
+      style={
+        theme === "dark"
+          ? { backgroundColor: "white" }
+          : { backgroundColor: "#0f172a" }
+      }
+    >
+      <div
+        className={styles.icons}
+        style={theme === "dark" ? { color: "#0f172a" } : { color: "white" }}
+      >
+        <BsFillMoonFill />
+      </div>
+      <div
+        className={styles.ball}
+        style={
+          theme === "dark"
+            ? { left: 5, backgroundColor: "#0f172a" }
+            : { right: 5, backgroundColor: "white" }
+        }
+      ></div>
+      <div
+        className={styles.icons}
+        style={theme === "dark" ? { color: "#0f172a" } : { color: "white" }}
+      >
+        <BsSunFill />
+      </div>
     </div>
   );
 };
