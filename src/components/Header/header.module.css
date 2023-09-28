@@ -24,6 +24,10 @@
   font-weight: 500;
 }
 
+.mobileMenu {
+  display: none;
+}
+
 @media screen and (max-width: 1500px) {
   .header {
     gap: 0.5rem;
@@ -42,10 +46,18 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .header {
+    justify-content: space-around;
+    align-items: center;
+  }
   .logo {
     display: flex;
   }
-  .title {
+  .navItem {
     display: none;
+  }
+
+  .mobileMenu {
+    display: inline-block;
   }
 }
