@@ -1,3 +1,4 @@
+import Hero from "@/components/Hero/Hero";
 import styles from "./homePage.module.css";
 import Header from "@/components/Header/Header";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <div className={styles.header}>
         <Header />
       </div>
+      <Hero />
     </div>
   );
 }
