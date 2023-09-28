@@ -1,0 +1,13 @@
+.container {
+  min-height: 60vh;
+  background-color: var(--bg);
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8rem;
+}
+
+.content {
+  text-align: center;
+}
