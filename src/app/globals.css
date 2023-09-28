@@ -16,6 +16,7 @@
   --text-color: #ddd;
   --softBg: #1f273a;
   --softTextColor: #a6a6a6;
+  --bg-gradient: linear-gradient(260deg, #3e3e3e00 31.05%, #ace1f986 77.42%);
 }
 
 .light {
@@ -23,6 +24,7 @@
   --text-color: black;
   --softBg: #f0f0f0;
   --softTextColor: #626262;
+  --bg-gradient: linear-gradient(260deg, #fff1eb 31.05%, #ace0f9 77.42%);
 }
 
 body {
