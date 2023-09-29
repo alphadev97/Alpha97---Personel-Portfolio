@@ -38,6 +38,13 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+  font-size: 1.2rem;
+}
+
+.icon {
+  background-color: black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .form {
