@@ -25,7 +25,7 @@
 
 .desc {
   font-size: 1.2rem;
-  padding: 2rem 0;
+  padding-bottom: 2rem;
 }
 
 .links {
@@ -47,6 +47,51 @@
   border-radius: 0.5rem;
 }
 
-.form {
+.send {
   width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form > input {
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid var(--softTextColor);
+}
+
+.form > textarea {
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid var(--softTextColor);
+}
+
+.form > input::placeholder {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.form > textarea::placeholder {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.form > button {
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background-color: var(--text-color);
+  color: var(--bg);
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
 }
