@@ -73,14 +73,118 @@ export const aboutItem = {
 // PROJECTS ITEM
 export const projectsItem = {
   title: "My Projects",
+  url: "/",
+  btnTitle: "All Projects",
   projects: [
     {
       id: 1,
       title: "Lorem ipsum dolor sit amet",
-      image_url: "/",
+      image_url: "/temp.jpg",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
       date: new Date(2023, 8, 14),
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+        {
+          id: 4,
+          title: "REACT.JS",
+        },
+        {
+          id: 5,
+          title: "NODE.JS",
+        },
+        {
+          id: 6,
+          title: "NEXT.JS",
+        },
+      ],
+    },
+    {
+      id: 2,
+      title: "Lorem ipsum dolor sit amet",
+      image_url: "/temp.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
+      date: new Date(2023, 9, 10),
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+        {
+          id: 4,
+          title: "REACT.JS",
+        },
+        {
+          id: 5,
+          title: "NODE.JS",
+        },
+        {
+          id: 6,
+          title: "NEXT.JS",
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: "Lorem ipsum dolor sit amet",
+      image_url: "/temp.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
+      date: new Date(2022, 12, 10),
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+        {
+          id: 4,
+          title: "REACT.JS",
+        },
+        {
+          id: 5,
+          title: "NODE.JS",
+        },
+        {
+          id: 6,
+          title: "NEXT.JS",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "Lorem ipsum dolor sit amet",
+      image_url: "/temp.jpg",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
+      date: new Date(2022, 4, 10),
       technology: [
         {
           id: 1,
