@@ -31,4 +31,26 @@
   background-color: var(--softBg);
   border-radius: 1rem;
   border: 1px solid var(--softTextColor);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 800px) {
+  .skill {
+    padding: 1rem 2rem;
+  }
+
+  .container {
+    padding: 5rem 4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .skill {
+    padding: 1rem 1.5rem;
+  }
+
+  .container {
+    padding: 5rem 2rem;
+  }
 }
