@@ -1,5 +1,6 @@
 import { experienceItem } from "@/data/static-data";
 import styles from "./experience.module.css";
+import Link from "next/link";
 
 const Experience = () => {
   return (
