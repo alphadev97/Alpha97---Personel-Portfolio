@@ -3,6 +3,10 @@
   padding: 5rem 8rem;
   background-color: var(--bg);
   color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
@@ -51,4 +55,69 @@
 .desc {
   padding: 1rem 0;
   font-size: 1rem;
+}
+
+.stacks {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.stack {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--softTextColor);
+}
+
+@media screen and (max-width: 965px) {
+  .company {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .container {
+    padding: 5rem 4rem;
+  }
+
+  .period {
+    font-size: 1rem;
+  }
+
+  .company {
+    font-size: 1.2rem;
+  }
+  .role {
+    font-size: 1rem;
+  }
+  .stack {
+    padding: 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    padding: 5rem 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .experience {
+    flex-direction: column;
+  }
+
+  .period {
+    width: 100%;
+  }
+
+  .expContent {
+    width: 100%;
+  }
+
+  .stack {
+    padding: 0.5rem 0.5rem;
+  }
 }
