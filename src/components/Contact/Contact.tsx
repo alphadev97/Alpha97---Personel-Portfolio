@@ -6,7 +6,7 @@ import { GrSend } from "react-icons/gr";
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.title}>{contactItem.title}</div>
+      <h1 className={styles.title}>{contactItem.title}</h1>
       <div className={styles.contact}>
         <div className={styles.content}>
           <p className={styles.desc}>{contactItem.description}</p>
