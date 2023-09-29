@@ -1,0 +1,7 @@
+.container {
+  min-height: 100vh;
+  padding: 5rem 8rem;
+  background-color: var(--bg);
+  color: var(--text-color);
+  gap: 2rem;
+}
