@@ -4,6 +4,7 @@ import Header from "@/components/Header/Header";
 import About from "@/components/About/About";
 import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
+import Experience from "@/components/Experience/Experience";
 
 type NavItem = {
   id: number;
@@ -21,6 +22,7 @@ export default function Home() {
       <About />
       <Projects />
       <Skills />
+      <Experience />
     </div>
   );
 }
