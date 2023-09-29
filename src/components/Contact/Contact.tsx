@@ -2,6 +2,7 @@ import { contactItem } from "@/data/static-data";
 import styles from "./contact.module.css";
 import Image from "next/image";
 import { GrSend } from "react-icons/gr";
+import { BsFillDeviceSsdFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
