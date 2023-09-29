@@ -1,8 +1,6 @@
 import { contactItem } from "@/data/static-data";
 import styles from "./contact.module.css";
 import Image from "next/image";
-import { GrSend } from "react-icons/gr";
-import { BsFillDeviceSsdFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -26,15 +24,18 @@ const Contact = () => {
             ))}
           </div>
         </div>
-        <div className={styles.form}>
-          <form>
+        <div className={styles.send}>
+          <form className={styles.form}>
             <input type="text" name="" id="" placeholder="Your Name" />
             <input type="text" name="" id="" placeholder="Your Name" />
-            <textarea name="" id="" cols={30} rows={10} />
-            <button type="submit">
-              Submit
-              <GrSend />
-            </button>
+            <textarea
+              name=""
+              id=""
+              cols={30}
+              rows={10}
+              placeholder="Your Message"
+            />
+            <button type="submit">Submit</button>
           </form>
         </div>
       </div>
