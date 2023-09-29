@@ -3,5 +3,52 @@
   padding: 5rem 8rem;
   background-color: var(--bg);
   color: var(--text-color);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 2rem auto;
+}
+
+.expContainer {
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
+}
+
+.experience {
+  display: flex;
+  padding: 1rem;
+}
+
+.period {
+  font-size: 1.5rem;
+  width: 30%;
+}
+
+.expContent {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.company {
+  font-size: 2.5rem;
+}
+
+.role {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.desc {
+  padding: 1rem 0;
+  font-size: 1rem;
 }
