@@ -1,8 +1,9 @@
 .container {
   min-height: 100vh;
-  padding: 0 8rem;
+  padding: 5rem 8rem;
   background-color: var(--bg);
   color: var(--text-color);
+  gap: 2rem;
 }
 
 .content {
@@ -52,6 +53,30 @@
 .projectTech {
   font-size: 2rem;
   font-weight: 500;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin-top: 5rem;
+  padding: 1rem 3rem;
+  background-color: var(--text-color);
+  color: var(--bg);
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 2rem;
+  border: 2px solid var(--softTextColor);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn:hover {
+  background-color: var(--bg);
+  color: var(--text-color);
+  transition: all 0.5s ease;
 }
 
 @media screen and (max-width: 1500px) {
