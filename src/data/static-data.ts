@@ -320,3 +320,8 @@ export const contactItem = {
     },
   ],
 };
+// COPYRIGHT ITEM
+export const copyrightItem = {
+  name: "Alpha97 | Muhammad Usama",
+  url: "/",
+};
