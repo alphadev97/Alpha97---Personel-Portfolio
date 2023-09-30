@@ -95,3 +95,35 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+.copyright {
+  padding: 3rem 0;
+  display: flex;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 5rem 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .send {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 2rem;
+  }
+}
