@@ -1,4 +1,4 @@
-import { contactItem } from "@/data/static-data";
+import { contactItem, copyrightItem } from "@/data/static-data";
 import styles from "./contact.module.css";
 import Image from "next/image";
 
@@ -38,6 +38,15 @@ const Contact = () => {
             <button type="submit">Submit</button>
           </form>
         </div>
+      </div>
+
+      <div className={styles.copyright}>
+        <p className={styles.copyrightContent}>
+          &copy; 2023 Copyright Protected,{" "}
+          <b>
+            <a href={copyrightItem.url}>{copyrightItem.name}</a>
+          </b>
+        </p>
       </div>
     </div>
   );
