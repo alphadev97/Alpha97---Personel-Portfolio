@@ -3,6 +3,10 @@ import styles from "./project.module.css";
 import { projectsItem } from "@/data/static-data";
 
 const ProjectPage = () => {
+  const sortedProjects = projectsItem.projects
+    .slice()
+    .sort((a, b) => b.date.getTime() - a.date.getTime());
+
   return (
     <div className={styles.container}>
       <div className={styles.content}>
@@ -11,8 +15,8 @@ const ProjectPage = () => {
         </div>
 
         <div className={styles.projects}>
-          {projectsItem &&
-            projectsItem.projects.map((project) => (
+          {sortedProjects &&
+            sortedProjects.map((project) => (
               <div className={styles.singleProject}>
                 <div className={styles.projImg}>
                   <Image
@@ -20,6 +24,7 @@ const ProjectPage = () => {
                     height={100}
                     width={100}
                     alt=""
+                    className={styles.img}
                   />
                 </div>
                 <div className={styles.projectContent}>
