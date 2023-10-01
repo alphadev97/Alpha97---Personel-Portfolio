@@ -12,3 +12,28 @@
   align-items: center;
   justify-content: center;
 }
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.singleProject {
+  display: flex;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 2rem;
+}
