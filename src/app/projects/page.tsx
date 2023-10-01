@@ -32,10 +32,12 @@ const ProjectPage = () => {
                   <p>{project.description}</p>
                 </div>
                 <div className={styles.projInfo}>
-                  <p>{project.date.toString().slice(0, 15)}</p>
+                  <p className={styles.date}>
+                    {project.date.toString().slice(0, 15)}
+                  </p>
                   <div className={styles.projTech}>
                     {project.technology.map((tech) => (
-                      <p>{tech.title}</p>
+                      <p className={styles.tech}>{tech.title}</p>
                     ))}
                   </div>
                 </div>
