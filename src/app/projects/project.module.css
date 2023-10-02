@@ -13,8 +13,33 @@
   justify-content: center;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.back {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 .title {
+  display: flex;
   margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .projects {
