@@ -78,6 +78,10 @@
   .header {
     width: 80%;
   }
+
+  .logo {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 330px) {
