@@ -42,6 +42,31 @@
   transition: all 0.5s ease;
 }
 
+@media screen and (max-width: 830px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .desc {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 180%;
+  }
+
+  .btn {
+    margin: 1.5rem 0;
+    padding: 1rem 3rem;
+    background-color: var(--text-color);
+    color: var(--bg);
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    border: 1px solid var(--softTextColor);
+    box-shadow: 8px 8px 0 -1px var(--softTextColor);
+  }
+}
+
 @media screen and (max-width: 700px) {
   .container {
     padding: 0 5rem;
@@ -54,6 +79,6 @@
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
