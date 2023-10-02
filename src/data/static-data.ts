@@ -83,6 +83,7 @@ export const projectsItem = {
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
       date: new Date(2023, 8, 14),
+      projectLink: "/",
       technology: [
         {
           id: 1,
@@ -117,6 +118,7 @@ export const projectsItem = {
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
       date: new Date(2023, 9, 10),
+      projectLink: "/",
       technology: [
         {
           id: 1,
@@ -151,6 +153,7 @@ export const projectsItem = {
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
       date: new Date(2022, 12, 10),
+      projectLink: "/",
       technology: [
         {
           id: 1,
@@ -185,6 +188,7 @@ export const projectsItem = {
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
       date: new Date(2022, 4, 10),
+      projectLink: "/",
       technology: [
         {
           id: 1,
