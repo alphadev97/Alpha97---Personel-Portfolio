@@ -12,10 +12,10 @@ export const ContactUs = () => {
     if (form.current) {
       emailjs
         .sendForm(
-          "YOUR_SERVICE_ID",
-          "YOUR_TEMPLATE_ID",
+          "service_n20q0jh",
+          "template_e44b9pj",
           form.current,
-          "YOUR_USER_ID"
+          "QU0JFoVrzcaw2PnXN"
         )
         .then(
           (result) => {
