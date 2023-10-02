@@ -13,7 +13,10 @@ const Experience = () => {
             experienceItem.map((exp) => (
               <div className={styles.experience}>
                 <div className={styles.period}>
-                  {exp.from} - {exp.to === "" ? "Present" : ""}
+                  {exp.from.toString().slice(0, 15)} -{" "}
+                  {exp.to.toString() === ""
+                    ? "Present"
+                    : exp.to.toString().slice(0, 15)}
                 </div>
                 <div className={styles.expContent}>
                   <h2 className={styles.company}>{exp.company}</h2>
