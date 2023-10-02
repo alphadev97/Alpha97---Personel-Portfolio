@@ -29,7 +29,11 @@
 
 .experience {
   display: flex;
-  padding: 1rem;
+  padding: 2rem;
+  background-color: var(--bg);
+  border: 1px solid var(--softTextColor);
+  border-radius: 2rem;
+  box-shadow: 10px 10px 0 -1px var(--softTextColor);
 }
 
 .period {
