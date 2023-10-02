@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Experience = () => {
   return (
-    <div className={styles.container}>
+    <div id="experience" className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>My Experience</h1>
 
