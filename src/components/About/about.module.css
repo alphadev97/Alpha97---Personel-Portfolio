@@ -31,9 +31,9 @@
   color: var(--bg);
   font-size: 1.2rem;
   font-weight: 500;
-  border-radius: 2rem;
-  border: 2px solid var(--softTextColor);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+  border: 1px solid var(--softTextColor);
+  box-shadow: 8px 8px 0 -1px var(--softTextColor);
 }
 
 .btn:hover {
