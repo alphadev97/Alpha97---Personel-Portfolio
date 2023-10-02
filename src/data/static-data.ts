@@ -257,7 +257,7 @@ export const experienceItem = [
     id: 1,
     company: "BlueTech International",
     role: "Software Engineer",
-    from: "2018",
+    from: new Date(2023, 8, 14).getFullYear(),
     to: "",
     description:
       "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship",
@@ -280,8 +280,8 @@ export const experienceItem = [
     id: 2,
     company: "BlueTech International",
     role: "Software Engineer",
-    from: "2018",
-    to: "",
+    from: new Date(2019, 8, 14).getFullYear(),
+    to: new Date(2022, 8, 14).getFullYear(),
     description:
       "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship",
     stack: [
