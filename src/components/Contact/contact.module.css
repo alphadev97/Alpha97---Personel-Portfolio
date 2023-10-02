@@ -62,6 +62,7 @@
   border-radius: 0.5rem;
   outline: none;
   border: 1px solid var(--softTextColor);
+  box-shadow: 5px 5px 0 -1px var(--softTextColor);
 }
 
 .form > textarea {
@@ -69,6 +70,7 @@
   border-radius: 0.5rem;
   outline: none;
   border: 1px solid var(--softTextColor);
+  box-shadow: 5px 5px 0 -1px var(--softTextColor);
 }
 
 .form > input::placeholder {
@@ -94,6 +96,7 @@
   text-transform: uppercase;
   font-weight: 500;
   cursor: pointer;
+  box-shadow: 5px 5px 0 -1px var(--softTextColor);
 }
 
 .copyright {
