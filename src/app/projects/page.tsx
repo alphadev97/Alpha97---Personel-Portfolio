@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./project.module.css";
 import { projectsItem } from "@/data/static-data";
+import Link from "next/link";
+import { BsFillArrowLeftSquareFill } from "react-icons/bs";
 
 const ProjectPage = () => {
   const sortedProjects = projectsItem.projects
@@ -10,8 +12,15 @@ const ProjectPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <div className={styles.title}>
-          <h1>{projectsItem.title}</h1>
+        <div className={styles.header}>
+          <Link href={"/"} className={styles.back}>
+            <BsFillArrowLeftSquareFill />
+            Back to Home
+          </Link>
+
+          <div className={styles.title}>
+            <h1 className={styles.heading}>{projectsItem.title}</h1>
+          </div>
         </div>
 
         <div className={styles.projects}>
