@@ -20,6 +20,7 @@ export const ContactUs = () => {
         .then(
           (result) => {
             console.log(result.text);
+            console.log(form);
           },
           (error) => {
             console.log(error.text);
