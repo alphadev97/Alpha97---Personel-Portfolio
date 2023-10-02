@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className={styles.container}>
+    <div id="contact" className={styles.container}>
       <h1 className={styles.title}>{contactItem.title}</h1>
       <div className={styles.contact}>
         <div className={styles.content}>
