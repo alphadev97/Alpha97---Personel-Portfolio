@@ -21,15 +21,20 @@ const Projects = () => {
 
       {latestProjects.map((project) => (
         <div key={project.id} className={styles.projectCard}>
-          <Image
-            className={styles.image}
-            src={project.image_url}
-            width={300}
-            height={150}
-            alt=""
-          />
+          <Link href={project.projectLink}>
+            <Image
+              className={styles.image}
+              src={project.image_url}
+              width={400}
+              height={250}
+              alt=""
+            />
+          </Link>
+
           <div className={styles.projectContent}>
-            <h2 className={styles.projectTitle}>{project.title}</h2>
+            <Link href={project.projectLink}>
+              <h2 className={styles.projectTitle}>{project.title}</h2>
+            </Link>
             <p className={styles.projectDesc}>{project.description}</p>
             <h5 className={styles.projectDate}>
               Date: {project.date.toString().slice(0, 15)}
