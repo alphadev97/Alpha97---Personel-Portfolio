@@ -68,8 +68,20 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .header {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 390px) {
   .header {
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .logo {
+    font-size: 1.5rem;
   }
 }
