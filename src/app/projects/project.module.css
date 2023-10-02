@@ -30,7 +30,7 @@
   border-radius: 2rem;
   gap: 1rem;
   border: 1px solid rgb(207, 207, 207);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: 10px 10px 0 -1px rgb(207, 207, 207);
 }
 
 .img {
