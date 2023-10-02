@@ -37,6 +37,7 @@
   border: 1px solid var(--softTextColor);
   font-size: 1.2rem;
   font-weight: 500;
+  box-shadow: 8px 8px 0 -1px rgb(207, 207, 207);
 }
 
 @media screen and (max-width: 800px) {
