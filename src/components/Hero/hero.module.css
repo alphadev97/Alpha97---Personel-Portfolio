@@ -30,7 +30,7 @@
   gap: 2rem;
 }
 
-.btnPrimary {
+/* .btnPrimary {
   padding: 1rem 3rem;
   background-color: var(--text-color);
   color: var(--bg);
@@ -39,15 +39,26 @@
   border-radius: 2rem;
   border: 2px solid var(--softTextColor);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+.btnPrimary {
+  padding: 1rem 3rem;
+  background-color: var(--text-color);
+  color: var(--bg);
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  box-shadow: 8px 8px 0 -1px var(--softTextColor);
 }
 
 .btnPrimary:hover {
   background-color: var(--bg);
   color: var(--text-color);
   transition: all 0.5s ease;
+  border: 1px solid var(--softTextColor);
 }
 
-.btnSecondary {
+/* .btnSecondary {
   padding: 1rem 3rem;
   background-color: var(--bg);
   color: var(--text-color);
@@ -56,6 +67,17 @@
   border-radius: 2rem;
   border: 2px solid var(--softTextColor);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+.btnSecondary {
+  padding: 1rem 3rem;
+  background-color: var(--softBg);
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  border: 1px solid var(--softTextColor);
+  box-shadow: 8px 8px 0 -1px var(--softTextColor);
 }
 
 .btnSecondary:hover {
