@@ -73,7 +73,7 @@ export const aboutItem = {
 // PROJECTS ITEM
 export const projectsItem = {
   title: "My Projects",
-  url: "/",
+  url: "/projects",
   btnTitle: "All Projects",
   projects: [
     {
