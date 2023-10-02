@@ -43,7 +43,7 @@ export const heroItem = {
   focus: "Next.js & TypeScript",
   contact: {
     title: "Contact me here",
-    url: "/",
+    url: "#contact",
   },
   cv: {
     title: "Download CV",
@@ -52,12 +52,12 @@ export const heroItem = {
   iconOne: {
     title: "GitHub",
     image_url: "",
-    url: "/",
+    url: "https://github.com/alphadev97",
   },
   iconTwo: {
     title: "Linkedin",
     image_url: "",
-    url: "/",
+    url: "https://www.linkedin.com/in/alpha97/",
   },
 };
 
