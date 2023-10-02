@@ -32,7 +32,7 @@ const Projects = () => {
             <h2 className={styles.projectTitle}>{project.title}</h2>
             <p className={styles.projectDesc}>{project.description}</p>
             <h5 className={styles.projectDate}>
-              Date: {project.date.toLocaleDateString()}
+              Date: {project.date.toString().slice(0, 15)}
             </h5>
             <h4 className={styles.projectTech}>
               <b>Technology</b>:{" "}
