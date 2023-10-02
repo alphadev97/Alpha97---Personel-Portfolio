@@ -50,12 +50,23 @@
   }
 }
 
-@media screen and (max-width: 400px) {
-  .skill {
-    padding: 1rem 1.5rem;
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 5rem 4rem;
   }
 
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .container {
     padding: 5rem 2rem;
+  }
+
+  .skill {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
   }
 }
