@@ -24,8 +24,8 @@ const Projects = () => {
           <Image
             className={styles.image}
             src={project.image_url}
-            width={600}
-            height={450}
+            width={300}
+            height={150}
             alt=""
           />
           <div className={styles.projectContent}>
@@ -35,8 +35,10 @@ const Projects = () => {
               Date: {project.date.toString().slice(0, 15)}
             </h5>
             <h4 className={styles.projectTech}>
-              <b>Technology</b>:{" "}
-              {project.technology.map((tech) => tech.title).join(", ")}
+              {" "}
+              {project.technology.map((tech) => (
+                <p className={styles.tech}>{tech.title}</p>
+              ))}
             </h4>
           </div>
         </div>
