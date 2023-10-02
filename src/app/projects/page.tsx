@@ -15,7 +15,7 @@ const ProjectPage = () => {
         <div className={styles.header}>
           <Link href={"/"} className={styles.back}>
             <BsFillArrowLeftSquareFill />
-            Back to Home
+            <div className={styles.backLink}>Back to Home</div>
           </Link>
 
           <div className={styles.title}>
