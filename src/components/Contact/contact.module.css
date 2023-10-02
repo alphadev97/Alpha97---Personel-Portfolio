@@ -61,6 +61,8 @@
   padding: 1rem 1rem;
   border-radius: 0.5rem;
   outline: none;
+  color: var(--text-color);
+  background-color: var(--bg);
   border: 1px solid var(--softTextColor);
   box-shadow: 5px 5px 0 -1px var(--softTextColor);
 }
@@ -69,6 +71,8 @@
   padding: 1rem 1rem;
   border-radius: 0.5rem;
   outline: none;
+  color: var(--text-color);
+  background-color: var(--bg);
   border: 1px solid var(--softTextColor);
   box-shadow: 5px 5px 0 -1px var(--softTextColor);
 }
