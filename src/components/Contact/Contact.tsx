@@ -1,6 +1,7 @@
 import { contactItem, copyrightItem } from "@/data/static-data";
 import styles from "./contact.module.css";
 import Image from "next/image";
+import { ContactUs } from "../Form/sendForm";
 
 const Contact = () => {
   return (
@@ -37,6 +38,8 @@ const Contact = () => {
             />
             <button type="submit">Submit</button>
           </form>
+
+          <ContactUs />
         </div>
       </div>
 
