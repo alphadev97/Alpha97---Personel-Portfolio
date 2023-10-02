@@ -28,16 +28,20 @@ const ProjectPage = () => {
             sortedProjects.map((project) => (
               <div className={styles.singleProject}>
                 <div className={styles.projImg}>
-                  <Image
-                    src={project.image_url}
-                    height={100}
-                    width={100}
-                    alt=""
-                    className={styles.img}
-                  />
+                  <Link href={project.projectLink}>
+                    <Image
+                      src={project.image_url}
+                      width={400}
+                      height={250}
+                      alt=""
+                      className={styles.img}
+                    />
+                  </Link>
                 </div>
                 <div className={styles.projectContent}>
-                  <h2>{project.title}</h2>
+                  <Link href={project.projectLink}>
+                    <h2>{project.title}</h2>
+                  </Link>
                   <p>{project.description}</p>
                 </div>
                 <div className={styles.projInfo}>
