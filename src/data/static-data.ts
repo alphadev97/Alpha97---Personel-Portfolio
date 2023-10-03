@@ -265,6 +265,30 @@ export const projectsItem = {
         },
       ],
     },
+    {
+      id: 9,
+      title: "Car Rent Website Design",
+      image_url: "/project-18-01-2023.png",
+      description:
+        "Alpha97 - Car Rent Website Design Using HTML, CSS & JavaScript.",
+      date: new Date(2023, 0, 18),
+      projectLink: "https://alphadev97.github.io/alpha97-car-rent-website/",
+      github: "https://github.com/alphadev97/alpha97-car-rent-website",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+      ],
+    },
   ],
 };
 
