@@ -65,9 +65,9 @@ export const heroItem = {
 export const aboutItem = {
   title: "About Me",
   btnTitle: "Know More About Me",
-  url: "/",
+  url: "https://www.linkedin.com/in/alpha97/",
   description:
-    "After graduating with a degree in Accounting, I decided to pursue my passion for programming. I enrolled in a coding bootcamp and learned full-stack web development. My favorite part of programming is the problem-solving aspect. I love the feeling of finally figuring out a solution to a problem. My core stack is React, Next.js, Node.js, and MongoDB. I am also familiar with TypeScript and Prisma. I am always looking to learn new technologies. I am currently looking for a full-time position as a software developer.\n\nWhen I'm not coding, I enjoy playing video games, watching movies, and playing with my dog. I also enjoy learning new things. I am currently learning about history and philosophy. I'm also learning how to play the guitar.",
+    "👋 Hey there! I'm Muhammad Usama, a software engineer specializing in MERN and PERN stacks. I work with TypeScript, JavaScript, React, Next.js, Redux, Node.js, Express.js, MongoDB, PostgreSQL, and more. Passionate about creating helpful applications and assisting fellow developers. Let's connect and build impactful software solutions together.",
 };
 
 // PROJECTS ITEM
@@ -78,12 +78,12 @@ export const projectsItem = {
   projects: [
     {
       id: 1,
-      title: "Lorem ipsum dolor sit amet",
-      image_url: "/temp.jpg",
+      title: "Online Course Website Design",
+      image_url: "/project-22-12-2022.png",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
-      date: new Date(2023, 8, 14),
-      projectLink: "/",
+        "Online Course Website Design using HTML, CSS & Vanilla JavaScript",
+      date: new Date(2022, 11, 22),
+      projectLink: "https://alphadev97.github.io/Online-Course-Design/",
       technology: [
         {
           id: 1,
@@ -96,18 +96,6 @@ export const projectsItem = {
         {
           id: 3,
           title: "JAVASCRIPT",
-        },
-        {
-          id: 4,
-          title: "REACT.JS",
-        },
-        {
-          id: 5,
-          title: "NODE.JS",
-        },
-        {
-          id: 6,
-          title: "NEXT.JS",
         },
       ],
     },
