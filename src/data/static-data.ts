@@ -385,19 +385,71 @@ export const skillsItem = [
   },
   {
     id: 4,
-    title: "REACT.JS",
+    title: "TYPESCRIPT",
   },
   {
     id: 5,
-    title: "NODE.JS",
+    title: "REACT.JS",
   },
   {
     id: 6,
-    title: "EXPRESS.JS",
+    title: "NEXT.JS",
   },
   {
     id: 7,
-    title: "TYPESCRIPT",
+    title: "JQUERY",
+  },
+  {
+    id: 8,
+    title: "NODE.JS",
+  },
+  {
+    id: 9,
+    title: "EXPRESS.JS",
+  },
+  {
+    id: 10,
+    title: "MONGODB",
+  },
+  {
+    id: 11,
+    title: "POSTGRESQL",
+  },
+  {
+    id: 12,
+    title: "SCSS",
+  },
+  {
+    id: 13,
+    title: "BOOTSTRAP",
+  },
+  {
+    id: 14,
+    title: "TAILWIND CSS",
+  },
+  {
+    id: 15,
+    title: "LINUX",
+  },
+  {
+    id: 16,
+    title: "GIT",
+  },
+  {
+    id: 17,
+    title: "GITHUB",
+  },
+  {
+    id: 18,
+    title: "PRISMA",
+  },
+  {
+    id: 19,
+    title: "FIGMA",
+  },
+  {
+    id: 20,
+    title: "PHOTOSHOP",
   },
 ];
 
