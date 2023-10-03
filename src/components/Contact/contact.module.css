@@ -36,15 +36,20 @@
 
 .link {
   display: flex;
-  gap: 1rem;
   align-items: center;
+  gap: 1rem;
   font-size: 1.2rem;
 }
 
 .icon {
-  background-color: black;
+  display: flex;
+  align-items: center;
+  background-color: var(--bg);
+  color: var(--text-color);
   padding: 0.5rem;
   border-radius: 0.5rem;
+  border: 1px solid var(--softTextColor);
+  box-shadow: 5px 5px 0 -1px var(--softTextColor);
 }
 
 .copyright {
