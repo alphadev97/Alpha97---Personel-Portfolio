@@ -102,13 +102,13 @@ export const projectsItem = {
     },
     {
       id: 2,
-      title: "Lorem ipsum dolor sit amet",
-      image_url: "/temp.jpg",
+      title: "E-Commerce Website Design",
+      image_url: "/project-23-12-2022.png",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
-      date: new Date(2023, 9, 10),
-      projectLink: "/",
-      github: "",
+        "Online Course Website Design using HTML, CSS & Vanilla JavaScript",
+      date: new Date(2022, 11, 23),
+      projectLink: "https://alphadev97.github.io/ecommerce-design/",
+      github: "https://github.com/alphadev97/ecommerce-design",
       technology: [
         {
           id: 1,
@@ -121,18 +121,6 @@ export const projectsItem = {
         {
           id: 3,
           title: "JAVASCRIPT",
-        },
-        {
-          id: 4,
-          title: "REACT.JS",
-        },
-        {
-          id: 5,
-          title: "NODE.JS",
-        },
-        {
-          id: 6,
-          title: "NEXT.JS",
         },
       ],
     },
