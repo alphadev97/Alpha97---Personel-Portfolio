@@ -587,7 +587,7 @@ export const experienceItem = [
 export const contactItem = {
   title: "Contact Me",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi beatae sunt, recusandae reiciendis repudiandae porro numquam neque illo, voluptas molestiae optio cumque tenetur, deleniti minus perspiciatis nemo natus voluptates harum?",
+    "Have questions or want to get in touch? Feel free to reach out! I'm always eager to connect and discuss exciting new opportunities. You can also use the contact form below to send me a message. I'll get back to you as soon as possible. Looking forward to hearing from you!",
   contact_items: [
     {
       id: 1,
