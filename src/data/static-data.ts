@@ -587,7 +587,7 @@ export const experienceItem = [
 export const contactItem = {
   title: "Contact Me",
   description:
-    "Have questions or want to get in touch? Feel free to reach out! I'm always eager to connect and discuss exciting new opportunities. You can also use the contact form below to send me a message. I'll get back to you as soon as possible. Looking forward to hearing from you!",
+    "Have questions or want to get in touch?\nFeel free to reach out! I'm always eager to connect and discuss exciting new opportunities.\nYou can also use the contact form below to send me a message. I'll get back to you as soon as possible.\nLooking forward to hearing from you!",
   contact_items: [
     {
       id: 1,
@@ -606,5 +606,5 @@ export const contactItem = {
 // COPYRIGHT ITEM
 export const copyrightItem = {
   name: "Alpha97 | Muhammad Usama",
-  url: "/",
+  url: "https://www.linkedin.com/in/alpha97/",
 };
