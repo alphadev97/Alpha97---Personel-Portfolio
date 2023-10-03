@@ -6,6 +6,8 @@ import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
 import Experience from "@/components/Experience/Experience";
 import Contact from "@/components/Contact/Contact";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 type NavItem = {
   id: number;
@@ -25,6 +27,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Contact />
+      <ToastContainer />
     </div>
   );
 }
