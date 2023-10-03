@@ -601,7 +601,7 @@ export const contactItem = {
     },
     {
       id: 3,
-      title: "WhatsApp",
+      title: "Linkedin",
       image_url: "/whatsapp.png",
     },
   ],
