@@ -457,9 +457,9 @@ export const skillsItem = [
 export const experienceItem = [
   {
     id: 1,
-    company: "BlueTech International",
-    role: "Software Engineer",
-    from: new Date(2023, 8, 14).getFullYear(),
+    company: "Bluetechinternational · Remote",
+    role: "Full Stack Developer",
+    from: new Date(2019, 3, 1).getFullYear(),
     to: "",
     description:
       "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship",
@@ -476,14 +476,82 @@ export const experienceItem = [
         id: 3,
         title: "JAVASCRIPT",
       },
+      {
+        id: 4,
+        title: "TYPESCRIPT",
+      },
+      {
+        id: 5,
+        title: "REACT.JS",
+      },
+      {
+        id: 6,
+        title: "NEXT.JS",
+      },
+      {
+        id: 7,
+        title: "JQUERY",
+      },
+      {
+        id: 8,
+        title: "NODE.JS",
+      },
+      {
+        id: 9,
+        title: "EXPRESS.JS",
+      },
+      {
+        id: 10,
+        title: "MONGODB",
+      },
+      {
+        id: 11,
+        title: "POSTGRESQL",
+      },
+      {
+        id: 12,
+        title: "SCSS",
+      },
+      {
+        id: 13,
+        title: "BOOTSTRAP",
+      },
+      {
+        id: 14,
+        title: "TAILWIND CSS",
+      },
+      {
+        id: 15,
+        title: "LINUX",
+      },
+      {
+        id: 16,
+        title: "GIT",
+      },
+      {
+        id: 17,
+        title: "GITHUB",
+      },
+      {
+        id: 18,
+        title: "PRISMA",
+      },
+      {
+        id: 19,
+        title: "FIGMA",
+      },
+      {
+        id: 20,
+        title: "PHOTOSHOP",
+      },
     ],
   },
   {
     id: 2,
-    company: "BlueTech International",
-    role: "Software Engineer",
-    from: new Date(2019, 8, 14).getFullYear(),
-    to: new Date(2022, 8, 14).getFullYear(),
+    company: "GT Solutions · Full-time",
+    role: "Web Developer",
+    from: new Date(2022, 9, 1).getFullYear(),
+    to: "",
     description:
       "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship",
     stack: [
@@ -498,6 +566,18 @@ export const experienceItem = [
       {
         id: 3,
         title: "JAVASCRIPT",
+      },
+      {
+        id: 4,
+        title: "WooCommerce",
+      },
+      {
+        id: 5,
+        title: "Responsive Web Design",
+      },
+      {
+        id: 6,
+        title: "Web Development",
       },
     ],
   },
