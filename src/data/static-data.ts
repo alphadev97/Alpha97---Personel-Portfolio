@@ -591,15 +591,15 @@ export const contactItem = {
   contact_items: [
     {
       id: 1,
-      title: "Email Address",
+      title: "muhammadusama30289@gmail.com",
     },
     {
       id: 2,
-      title: "Phone No",
+      title: "+92 320 1237 617",
     },
     {
       id: 3,
-      title: "Linkedin",
+      title: "in/alpha97",
     },
   ],
 };
