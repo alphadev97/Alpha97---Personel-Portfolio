@@ -341,6 +341,31 @@ export const projectsItem = {
         },
       ],
     },
+    {
+      id: 12,
+      title: "Number Guesser Challange Project - JavaScript",
+      image_url: "/project-17-02-2023.png",
+      description: "Number Guesser Challenge Project (JavaScript) | CODECADEMY",
+      date: new Date(2023, 1, 17),
+      projectLink:
+        "https://alphadev97.github.io/Number-Guesser-Challenge-Project-JavaScript-/",
+      github:
+        "https://github.com/alphadev97/Number-Guesser-Challenge-Project-JavaScript-",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+      ],
+    },
   ],
 };
 
