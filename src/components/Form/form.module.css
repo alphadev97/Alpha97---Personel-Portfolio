@@ -54,8 +54,20 @@
   box-shadow: 5px 5px 0 -1px var(--softTextColor);
 }
 
+@media screen and (max-width: 852px) {
+  .send {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .send {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .send {
+    width: 80%;
   }
 }
