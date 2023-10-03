@@ -47,62 +47,6 @@
   border-radius: 0.5rem;
 }
 
-.send {
-  width: 50%;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.form > input {
-  padding: 1rem 1rem;
-  border-radius: 0.5rem;
-  outline: none;
-  color: var(--text-color);
-  background-color: var(--bg);
-  border: 1px solid var(--softTextColor);
-  box-shadow: 5px 5px 0 -1px var(--softTextColor);
-}
-
-.form > textarea {
-  padding: 1rem 1rem;
-  border-radius: 0.5rem;
-  outline: none;
-  color: var(--text-color);
-  background-color: var(--bg);
-  border: 1px solid var(--softTextColor);
-  box-shadow: 5px 5px 0 -1px var(--softTextColor);
-}
-
-.form > input::placeholder {
-  font-family: inherit;
-  font-size: 1rem;
-}
-
-.form > textarea::placeholder {
-  font-family: inherit;
-  font-size: 1rem;
-}
-
-.form > button {
-  padding: 1.5rem;
-  font-size: 1.2rem;
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0.5rem;
-  background-color: var(--text-color);
-  color: var(--bg);
-  text-transform: uppercase;
-  font-weight: 500;
-  cursor: pointer;
-  box-shadow: 5px 5px 0 -1px var(--softTextColor);
-}
-
 .copyright {
   padding-top: 3rem;
   display: flex;
@@ -125,10 +69,6 @@
   }
 
   .content {
-    width: 100%;
-  }
-
-  .send {
     width: 100%;
   }
 }
