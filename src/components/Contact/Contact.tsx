@@ -2,6 +2,9 @@ import { contactItem, copyrightItem } from "@/data/static-data";
 import styles from "./contact.module.css";
 import Image from "next/image";
 import { ContactUs } from "../Form/sendForm";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsTelephone } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -11,18 +14,28 @@ const Contact = () => {
         <div className={styles.content}>
           <p className={styles.desc}>{contactItem.description}</p>
           <div className={styles.links}>
-            {contactItem.contact_items.map((link) => (
-              <div className={styles.link}>
-                <Image
-                  className={styles.icon}
-                  src={link.image_url}
-                  height={50}
-                  width={50}
-                  alt=""
-                />
-                <p>{link.title}</p>
+            
+            <div className={styles.link}>
+              <div className={styles.icon}>
+                <HiOutlineMail />
               </div>
-            ))}
+
+              <p>{contactItem.contact_items[0].title}</p>
+            </div>
+            <div className={styles.link}>
+              <div className={styles.icon}>
+                <BsTelephone />
+              </div>
+
+              <p>{contactItem.contact_items[1].title}</p>
+            </div>
+            <div className={styles.link}>
+              <div className={styles.icon}>
+                <FaLinkedinIn />
+              </div>
+
+              <p>{contactItem.contact_items[2].title}</p>
+            </div>
           </div>
         </div>
         <ContactUs />
