@@ -30,7 +30,7 @@
 
 .image {
   border-radius: 2rem;
-  background-size: cover;
+  object-fit: cover;
 }
 
 .projectContent {
@@ -63,6 +63,23 @@
 .tech {
   padding: 0.5rem;
   background-color: var(--bg);
+  border-radius: 0.5rem;
+  border: 1px solid var(--softTextColor);
+  box-shadow: 3px 3px 0 -1px var(--softTextColor);
+}
+
+.code {
+  display: flex;
+  gap: 1rem;
+}
+
+.codeLink {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: var(--text-color);
+  color: var(--bg);
   border-radius: 0.5rem;
   border: 1px solid var(--softTextColor);
   box-shadow: 3px 3px 0 -1px var(--softTextColor);
