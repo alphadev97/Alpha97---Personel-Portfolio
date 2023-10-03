@@ -92,8 +92,7 @@
 
 @media screen and (max-width: 462px) {
   .content {
-    width: 90%;
-    padding: 1rem;
+    width: 100%;
   }
 
   .link {
