@@ -126,13 +126,12 @@ export const projectsItem = {
     },
     {
       id: 3,
-      title: "Lorem ipsum dolor sit amet",
-      image_url: "/temp.jpg",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
-      date: new Date(2022, 12, 10),
-      projectLink: "/",
-      github: "",
+      title: "3D Cube Ambient Light Effect",
+      image_url: "/project-24-12-2022.png",
+      description: "3D CSS Glowing Ambient Cube Design using HTML and CSS.",
+      date: new Date(2022, 11, 24),
+      projectLink: "https://github.com/alphadev97/3d-cube-ambient-light-effect",
+      github: "https://alphadev97.github.io/3d-cube-ambient-light-effect/",
       technology: [
         {
           id: 1,
@@ -141,22 +140,6 @@ export const projectsItem = {
         {
           id: 2,
           title: "CSS",
-        },
-        {
-          id: 3,
-          title: "JAVASCRIPT",
-        },
-        {
-          id: 4,
-          title: "REACT.JS",
-        },
-        {
-          id: 5,
-          title: "NODE.JS",
-        },
-        {
-          id: 6,
-          title: "NEXT.JS",
         },
       ],
     },
