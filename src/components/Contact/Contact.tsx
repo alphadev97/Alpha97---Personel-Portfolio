@@ -4,6 +4,7 @@ import { ContactUs } from "../Form/sendForm";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -18,21 +19,27 @@ const Contact = () => {
                 <HiOutlineMail />
               </div>
 
-              <p>{contactItem.contact_items[0].title}</p>
+              <Link href={contactItem.contact_items[0].url}>
+                <p>{contactItem.contact_items[0].title}</p>
+              </Link>
             </div>
             <div className={styles.link}>
               <div className={styles.icon}>
                 <BsTelephone />
               </div>
 
-              <p>{contactItem.contact_items[1].title}</p>
+              <Link href={contactItem.contact_items[1].url}>
+                <p>{contactItem.contact_items[1].title}</p>
+              </Link>
             </div>
             <div className={styles.link}>
               <div className={styles.icon}>
                 <FaLinkedinIn />
               </div>
 
-              <p>{contactItem.contact_items[2].title}</p>
+              <Link href={contactItem.contact_items[2].url}>
+                <p>{contactItem.contact_items[2].title}</p>
+              </Link>
             </div>
           </div>
         </div>
