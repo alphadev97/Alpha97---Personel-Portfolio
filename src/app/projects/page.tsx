@@ -2,7 +2,8 @@ import Image from "next/image";
 import styles from "./project.module.css";
 import { projectsItem } from "@/data/static-data";
 import Link from "next/link";
-import { BsFillArrowLeftSquareFill } from "react-icons/bs";
+import { BsFillArrowLeftSquareFill, BsCodeSquare } from "react-icons/bs";
+import { TbWorldWww } from "react-icons/tb";
 
 const ProjectPage = () => {
   const sortedProjects = projectsItem.projects
@@ -43,7 +44,19 @@ const ProjectPage = () => {
                     <h2>{project.title}</h2>
                   </Link>
                   <p>{project.description}</p>
+                  <div className={styles.code}>
+                    <Link
+                      href={project.projectLink}
+                      className={styles.codeLink}
+                    >
+                      <TbWorldWww />
+                    </Link>
+                    <Link href={project.github} className={styles.codeLink}>
+                      <BsCodeSquare />
+                    </Link>
+                  </div>
                 </div>
+
                 <div className={styles.projInfo}>
                   <p className={styles.date}>
                     {project.date.toString().slice(0, 15)}
