@@ -25,22 +25,7 @@ const Contact = () => {
             ))}
           </div>
         </div>
-        <div className={styles.send}>
-          <form className={styles.form}>
-            <input type="text" name="" id="" placeholder="Your Name" />
-            <input type="text" name="" id="" placeholder="Your Name" />
-            <textarea
-              name=""
-              id=""
-              cols={30}
-              rows={10}
-              placeholder="Your Message"
-            />
-            <button type="submit">Submit</button>
-          </form>
-
-          <ContactUs />
-        </div>
+        <ContactUs />
       </div>
 
       <div className={styles.copyright}>
