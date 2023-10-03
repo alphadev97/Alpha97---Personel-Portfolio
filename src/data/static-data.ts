@@ -150,8 +150,10 @@ export const projectsItem = {
       description:
         "3D CSS Glowing Ambient Cube Design with Text using HTML and CSS.",
       date: new Date(2022, 11, 25),
-      projectLink: "/",
-      github: "",
+      projectLink:
+        "https://alphadev97.github.io/css-3D-glowing-cube-with-text--animation-effects/",
+      github:
+        "https://github.com/alphadev97/css-3D-glowing-cube-with-text--animation-effects",
       technology: [
         {
           id: 1,
@@ -160,6 +162,81 @@ export const projectsItem = {
         {
           id: 2,
           title: "CSS",
+        },
+      ],
+    },
+    {
+      id: 5,
+      title: "Parallax Scrolling Website Jungle Theme",
+      image_url: "/project-26-12-2022.png",
+      description:
+        "Parallax Scrolling Website - Jungle Theme | HTML,CSS & JAVASCRIPT",
+      date: new Date(2022, 11, 26),
+      projectLink:
+        "https://alphadev97.github.io/parallax-scrolling-website-jungle-theme/",
+      github:
+        "https://github.com/alphadev97/parallax-scrolling-website-jungle-theme",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+      ],
+    },
+    {
+      id: 6,
+      title: "Parallax Scrolling Website Night Theme",
+      image_url: "/project-27-12-2022.png",
+      description:
+        "Parallax Scrolling Website - Night Theme | HTML,CSS & JAVASCRIPT",
+      date: new Date(2022, 11, 27),
+      projectLink:
+        "https://alphadev97.github.io/parallax-scrolling-website-night-theme/",
+      github:
+        "https://github.com/alphadev97/parallax-scrolling-website-night-theme",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+      ],
+    },
+    {
+      id: 7,
+      title: "Dashboard Sodebar Menu",
+      image_url: "/project-30-12-2022.png",
+      description: "Dashboard Sidebar Menu using Html CSS & Javascript",
+      date: new Date(2022, 11, 30),
+      projectLink: "https://alphadev97.github.io/Dashboard-Sidebar-Menu/",
+      github: "https://alphadev97.github.io/Dashboard-Sidebar-Menu/",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
         },
       ],
     },
