@@ -591,15 +591,18 @@ export const contactItem = {
   contact_items: [
     {
       id: 1,
-      title: "muhammadusama30289@gmail.com",
+      title: "Email Me",
+      url: "mailto:muhammadusama30289@gmail.com",
     },
     {
       id: 2,
-      title: "+92 320 1237 617",
+      title: "Call Me",
+      url: "tel:+92-320-1237617",
     },
     {
       id: 3,
-      title: "in/alpha97",
+      title: "Linkedin",
+      url: "https://www.linkedin.com/in/alpha97/",
     },
   ],
 };
