@@ -240,6 +240,31 @@ export const projectsItem = {
         },
       ],
     },
+    {
+      id: 8,
+      title: "Creative Agency Website Design",
+      image_url: "/project-17-01-2023.png",
+      description:
+        "Creative Agency Website Design using HTML, CSS & JavaScript.",
+      date: new Date(2023, 0, 17),
+      projectLink:
+        "https://alphadev97.github.io/creative-agency-website-design/",
+      github: "https://github.com/alphadev97/creative-agency-website-design",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+      ],
+    },
   ],
 };
 
