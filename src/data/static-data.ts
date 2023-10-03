@@ -145,11 +145,11 @@ export const projectsItem = {
     },
     {
       id: 4,
-      title: "Lorem ipsum dolor sit amet",
-      image_url: "/temp.jpg",
+      title: "CSS 3D Glowing Cube With Text Animation Effects",
+      image_url: "/project-25-12-2022.png",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Officiis optio quos sunt, unde id dolores quae dolor repudiandae consectetur aperiam, omnis sit ea labore suscipit, architecto iusto blanditiis!",
-      date: new Date(2022, 4, 10),
+        "3D CSS Glowing Ambient Cube Design with Text using HTML and CSS.",
+      date: new Date(2022, 11, 25),
       projectLink: "/",
       github: "",
       technology: [
@@ -160,22 +160,6 @@ export const projectsItem = {
         {
           id: 2,
           title: "CSS",
-        },
-        {
-          id: 3,
-          title: "JAVASCRIPT",
-        },
-        {
-          id: 4,
-          title: "REACT.JS",
-        },
-        {
-          id: 5,
-          title: "NODE.JS",
-        },
-        {
-          id: 6,
-          title: "NEXT.JS",
         },
       ],
     },
