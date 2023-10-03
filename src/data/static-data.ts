@@ -592,17 +592,14 @@ export const contactItem = {
     {
       id: 1,
       title: "Email Address",
-      image_url: "/email.png",
     },
     {
       id: 2,
       title: "Phone No",
-      image_url: "/phone.png",
     },
     {
       id: 3,
       title: "Linkedin",
-      image_url: "/whatsapp.png",
     },
   ],
 };
