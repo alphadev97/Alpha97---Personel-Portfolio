@@ -14,7 +14,7 @@
 
 .image {
   border-radius: 50%;
-  border: 5px solid var(--softTextColor);
+  border: 5px solid var(--text-color);
   background-size: cover;
 }
 
