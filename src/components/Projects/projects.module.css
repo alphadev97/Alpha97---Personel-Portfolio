@@ -31,8 +31,12 @@
 .image {
   border-radius: 2rem;
   object-fit: cover;
+  transition: transform 0.2s;
 }
 
+.image:hover {
+  transform: scale(1.05);
+}
 .projectContent {
   display: flex;
   gap: 1rem;
