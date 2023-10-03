@@ -315,6 +315,32 @@ export const projectsItem = {
         },
       ],
     },
+    {
+      id: 11,
+      title: "Alpha97 Responsive Multipage Personal Portfolio Website",
+      image_url: "/project-08-02-2023.png",
+      description:
+        "Alpha97 Responsive Restaurant Website Using HTML CSS JavaScript",
+      date: new Date(2023, 1, 8),
+      projectLink:
+        "https://alphadev97.github.io/Alpha97---Responsive-Multipage-Personal-Portfolio-Website/",
+      github:
+        "https://github.com/alphadev97/Alpha97---Responsive-Multipage-Personal-Portfolio-Website",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+      ],
+    },
   ],
 };
 
