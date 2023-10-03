@@ -33,11 +33,16 @@ export const ContactUs = () => {
   return (
     <div className={styles.send}>
       <form ref={form} onSubmit={sendEmail} className={styles.form}>
-        <input type="text" name="from_name" />
+        <input type="text" name="from_name" placeholder="Your Name" />
 
-        <input type="email" name="email_id" />
+        <input type="email" name="email_id" placeholder="Your Email Address" />
 
-        <textarea name="message" cols={30} rows={10} />
+        <textarea
+          name="message"
+          cols={30}
+          rows={10}
+          placeholder="Your Message"
+        />
         <input type="submit" value="Send" className={styles.submitBtn} />
       </form>
     </div>
