@@ -3,6 +3,8 @@ import styles from "./projects.module.css";
 import { projectsItem } from "@/data/static-data";
 import Image from "next/image";
 import Link from "next/link";
+import { BsCodeSquare } from "react-icons/bs";
+import { TbWorldWww } from "react-icons/tb";
 
 const Projects = () => {
   // Sort projects by date in descending order (latest first)
@@ -45,6 +47,14 @@ const Projects = () => {
                 <p className={styles.tech}>{tech.title}</p>
               ))}
             </h4>
+            <div className={styles.code}>
+              <Link href={project.projectLink} className={styles.codeLink}>
+                <TbWorldWww />
+              </Link>
+              <Link href={project.github} className={styles.codeLink}>
+                <BsCodeSquare />
+              </Link>
+            </div>
           </div>
         </div>
       ))}
