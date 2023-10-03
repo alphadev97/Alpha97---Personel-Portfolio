@@ -1,6 +1,5 @@
 import { contactItem, copyrightItem } from "@/data/static-data";
 import styles from "./contact.module.css";
-import Image from "next/image";
 import { ContactUs } from "../Form/sendForm";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
@@ -14,7 +13,6 @@ const Contact = () => {
         <div className={styles.content}>
           <p className={styles.desc}>{contactItem.description}</p>
           <div className={styles.links}>
-            
             <div className={styles.link}>
               <div className={styles.icon}>
                 <HiOutlineMail />
