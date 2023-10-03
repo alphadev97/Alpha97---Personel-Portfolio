@@ -2,6 +2,7 @@
 
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import styles from "./form.module.css";
 
 export const ContactUs = () => {
   const form = useRef<HTMLFormElement | null>(null);
@@ -30,14 +31,15 @@ export const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div className={styles.send}>
+      <form ref={form} onSubmit={sendEmail} className={styles.form}>
+        <input type="text" name="from_name" />
+
+        <input type="email" name="email_id" />
+
+        <textarea name="message" cols={30} rows={10} />
+        <input type="submit" value="Send" className={styles.submitBtn} />
+      </form>
+    </div>
   );
 };
