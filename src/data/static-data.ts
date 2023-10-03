@@ -289,6 +289,32 @@ export const projectsItem = {
         },
       ],
     },
+    {
+      id: 10,
+      title: "Responsive Animated Education Website",
+      image_url: "/project-19-01-2023.png",
+      description:
+        "Alpha97 - Responsive Animated Education Website with HTML CSS JS.",
+      date: new Date(2023, 0, 19),
+      projectLink:
+        "https://alphadev97.github.io/Responsive-Animated-Education-Website-with-HTML-CSS-JS/",
+      github:
+        "https://github.com/alphadev97/Responsive-Animated-Education-Website-with-HTML-CSS-JS",
+      technology: [
+        {
+          id: 1,
+          title: "HTML",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+        {
+          id: 3,
+          title: "JAVASCRIPT",
+        },
+      ],
+    },
   ],
 };
 
