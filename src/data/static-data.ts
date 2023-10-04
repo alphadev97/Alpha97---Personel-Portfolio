@@ -366,6 +366,54 @@ export const projectsItem = {
         },
       ],
     },
+    {
+      id: 13,
+      title: "E-Commerce Project | MERN Stack",
+      image_url: "/project-14-08-2023.png",
+      description:
+        "Minimal E-Commerce Store built using the MERN (MongoDB, Express, React, Node.js) stack. This application provides a user-friendly and efficient platform for browsing, searching, and purchasing products. It includes features such as user authentication, product categorization, shopping cart management, secure payment processing, and more.",
+      date: new Date(2023, 7, 14),
+      projectLink: "https://drab-gold-narwhal-gown.cyclic.cloud/",
+      github: "https://github.com/alphadev97/ecommerce-mern-project",
+      technology: [
+        {
+          id: 1,
+          title: "React.js",
+        },
+        {
+          id: 2,
+          title: "Vite",
+        },
+        {
+          id: 3,
+          title: "Node.js",
+        },
+        {
+          id: 4,
+          title: "Express.js",
+        },
+        {
+          id: 5,
+          title: "MongoDB",
+        },
+        {
+          id: 6,
+          title: "Braintree",
+        },
+        {
+          id: 7,
+          title: "SCSS",
+        },
+        {
+          id: 8,
+          title: "JWT",
+        },
+        {
+          id: 9,
+          title: "Cyclic",
+        },
+      ],
+    },
   ],
 };
 
