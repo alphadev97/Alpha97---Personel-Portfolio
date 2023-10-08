@@ -14,7 +14,8 @@
 
 .image {
   border-radius: 50%;
-  border: 5px solid var(--text-color);
+  /* border: 5px solid var(--text-color); */
+  filter: drop-shadow(0 0 0.75rem var(--text-color));
   background-size: cover;
 }
 
