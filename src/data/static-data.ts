@@ -414,6 +414,26 @@ export const projectsItem = {
         },
       ],
     },
+    {
+      id: 14,
+      title: "Alpha97 - Personal Portfolio",
+      image_url: "/project-24-10-2023.png",
+      description:
+        "This portfolio project is a sleek and modern website built entirely with Next.js, a powerful and versatile React framework. It showcases the developer's skills, experience, and projects in an elegant and user-friendly interface. What's impressive is that it doesn't rely on a traditional backend; instead, it utilizes custom data directly within the application.",
+      date: new Date(2023, 9, 24),
+      projectLink: "https://alpha97-personel-portfolio.vercel.app/",
+      github: "https://github.com/alphadev97/Alpha97---Personel-Portfolio",
+      technology: [
+        {
+          id: 1,
+          title: "Next.js",
+        },
+        {
+          id: 2,
+          title: "CSS",
+        },
+      ],
+    },
   ],
 };
 
