@@ -417,7 +417,7 @@ export const projectsItem = {
     {
       id: 14,
       title: "Alpha97 - Personal Portfolio",
-      image_url: "/project-24-10-2023.png",
+      image_url: "/project-24-09-2023.png",
       description:
         "This portfolio project is a sleek and modern website built entirely with Next.js, a powerful and versatile React framework. It showcases the developer's skills, experience, and projects in an elegant and user-friendly interface. What's impressive is that it doesn't rely on a traditional backend; instead, it utilizes custom data directly within the application.",
       date: new Date(2023, 9, 24),
@@ -431,6 +431,42 @@ export const projectsItem = {
         {
           id: 2,
           title: "CSS",
+        },
+      ],
+    },
+    {
+      id: 15,
+      title: "Alpha97 Estate - Real Estate Web App",
+      image_url: "/project-19-10-2023.png",
+      description:
+        "Alpha97 Estate is a modern real estate web application built with the MERN stack. Explore and list properties, whether for sale or rent, with advanced search features and user profiles. Discover your next dream property effortlessly.",
+      date: new Date(2023, 9, 24),
+      projectLink: "https://alpha97-estate.onrender.com/",
+      github: "https://github.com/alphadev97/AlphaEstate",
+      technology: [
+        {
+          id: 1,
+          title: "React.js",
+        },
+        {
+          id: 2,
+          title: "Node.js",
+        },
+        {
+          id: 3,
+          title: "Express.js",
+        },
+        {
+          id: 4,
+          title: "MongoDB",
+        },
+        {
+          id: 5,
+          title: "Google Auth",
+        },
+        {
+          id: 6,
+          title: "JWT",
         },
       ],
     },
