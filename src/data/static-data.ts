@@ -525,39 +525,47 @@ export const skillsItem = [
   },
   {
     id: 3,
-    title: "JAVASCRIPT",
+    title: "JavaScript",
   },
   {
     id: 4,
-    title: "TYPESCRIPT",
+    title: "TypeScript",
+  },
+  {
+    id: 21,
+    title: "C",
+  },
+  {
+    id: 22,
+    title: "C++",
   },
   {
     id: 5,
-    title: "REACT.JS",
+    title: "React.js",
   },
   {
     id: 6,
-    title: "NEXT.JS",
+    title: "Next.js",
   },
   {
     id: 7,
-    title: "JQUERY",
+    title: "jQuery",
   },
   {
     id: 8,
-    title: "NODE.JS",
+    title: "Node.js",
   },
   {
     id: 9,
-    title: "EXPRESS.JS",
+    title: "Express.js",
   },
   {
     id: 10,
-    title: "MONGODB",
+    title: "MongoDB",
   },
   {
     id: 11,
-    title: "POSTGRESQL",
+    title: "PostgreSQL",
   },
   {
     id: 12,
@@ -565,35 +573,35 @@ export const skillsItem = [
   },
   {
     id: 13,
-    title: "BOOTSTRAP",
+    title: "Bootstrap",
   },
   {
     id: 14,
-    title: "TAILWIND CSS",
+    title: "Tailwind CSS",
   },
   {
     id: 15,
-    title: "LINUX",
+    title: "Linux",
   },
   {
     id: 16,
-    title: "GIT",
+    title: "Git",
   },
   {
     id: 17,
-    title: "GITHUB",
+    title: "GitHub",
   },
   {
     id: 18,
-    title: "PRISMA",
+    title: "Prisma",
   },
   {
     id: 19,
-    title: "FIGMA",
+    title: "Figma",
   },
   {
     id: 20,
-    title: "PHOTOSHOP",
+    title: "Photoshop",
   },
 ];
 
@@ -604,9 +612,9 @@ export const experienceItem = [
     company: "Bluetechinternational · Remote",
     role: "Full Stack Developer",
     from: new Date(2019, 3, 1).getFullYear(),
-    to: "",
+    to: new Date(2023, 3, 1).getFullYear(),
     description:
-      "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship",
+      "At BlueTech International, I served as a Full Stack Developer from 2019 to 2023. Working remotely, I played a key role in developing innovative software solutions using a variety of technologies and frameworks. Collaborating with cross-functional teams, I contributed to the design, development, and deployment of scalable applications that met the needs of our clients. Through my expertise in full stack development, I helped drive the success of BlueTech International.",
     stack: [
       {
         id: 1,
@@ -692,12 +700,47 @@ export const experienceItem = [
   },
   {
     id: 2,
+    company: "RojrzTech LLC · Remote",
+    role: "Software Engineer",
+    from: new Date(2024, 9, 1).getFullYear(),
+    to: "",
+    description:
+      "At RojrzTech LLC, I am currently serving as a Software Engineer. Since joining the company in 2024, I have been responsible for designing, developing, and maintaining software applications that address complex business challenges. Working remotely, I collaborate with multidisciplinary teams to deliver high-quality solutions that meet client requirements. As a Software Engineer, I leverage my skills and expertise to contribute to the success and growth of RojrzTech LLC.",
+    stack: [
+      {
+        id: 1,
+        title: "HTML",
+      },
+      {
+        id: 2,
+        title: "CSS",
+      },
+      {
+        id: 3,
+        title: "JAVASCRIPT",
+      },
+      {
+        id: 4,
+        title: "WooCommerce",
+      },
+      {
+        id: 5,
+        title: "Responsive Web Design",
+      },
+      {
+        id: 6,
+        title: "Web Development",
+      },
+    ],
+  },
+  {
+    id: 3,
     company: "GT Solutions · Full-time",
-    role: "Web Developer",
+    role: "Full Stack Engineer",
     from: new Date(2022, 9, 1).getFullYear(),
     to: "",
     description:
-      "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship",
+      "At GT Solutions USA, I am currently working as a Full Stack Engineer. Since joining the company in 2022, I have been involved in architecting and developing robust software solutions onsite. Collaborating with the team, I have contributed to the design, implementation, and optimization of applications that drive business growth and success. Through my role as a Full Stack Engineer, I am committed to delivering high-quality solutions that meet the needs of GT Solutions USA and its clients.",
     stack: [
       {
         id: 1,
