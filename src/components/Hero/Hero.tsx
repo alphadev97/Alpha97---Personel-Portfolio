@@ -26,7 +26,11 @@ const Hero = () => {
         <Link className={styles.btnPrimary} href={heroItem.contact.url}>
           {heroItem.contact.title}
         </Link>
-        <Link className={styles.btnSecondary} href={heroItem.cv.url}>
+        <Link
+          target="_blank"
+          className={styles.btnSecondary}
+          href={heroItem.cv.url}
+        >
           {heroItem.cv.title}
         </Link>
         <div className={styles.social}>

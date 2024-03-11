@@ -35,7 +35,7 @@ export const navItems = [
 // HERO ITEM
 export const heroItem = {
   id: 1,
-  image_url: "/alpha97.jpeg",
+  image_url: "/musama.png",
   title: "hero",
   name: "Hello, I'm Muhammad Usama",
   designation: "Software Engineer",
@@ -47,7 +47,7 @@ export const heroItem = {
   },
   cv: {
     title: "Download CV",
-    url: "/",
+    url: "https://drive.google.com/file/d/1ZrRSdyO-50wz6wBiUY7MWl8AZ5BPF7mT/view?usp=sharing",
   },
   iconOne: {
     title: "GitHub",
