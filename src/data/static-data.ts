@@ -470,6 +470,46 @@ export const projectsItem = {
         },
       ],
     },
+    {
+      id: 16,
+      title: "Alpha97 - Gamitch",
+      image_url: "/project-1-12-1-2024.jpeg",
+      description:
+        "Gamitch - Next.js 14 Twitch Clone Gamitch is a sleek Twitch clone powered by Next.js 14. Stream seamlessly, manage users with Clerk, and customize your live streaming experience from a centralized dashboard. Elevate engagement with tailored chat options and community features. Empower your content creation journey with Gamitch.",
+      date: new Date(2024, 0, 12),
+      projectLink: "https://gamitch.vercel.app/",
+      github: "https://github.com/alphadev97/Gamitch",
+      technology: [
+        {
+          id: 1,
+          title: "Next.js",
+        },
+        {
+          id: 2,
+          title: "Next Auth",
+        },
+        {
+          id: 3,
+          title: "Prisma",
+        },
+        {
+          id: 4,
+          title: "mySql",
+        },
+        {
+          id: 5,
+          title: "Redux",
+        },
+        {
+          id: 6,
+          title: "JWT",
+        },
+        {
+          id: 7,
+          title: "LiveKit",
+        },
+      ],
+    },
   ],
 };
 
